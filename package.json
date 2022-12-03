@@ -1,0 +1,27 @@
+{
+  "name": "funpay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "back": "cd back && nodemon server.js",
+    "front": "cd front && npm run dev",
+    "dev": "concurrently \"npm run back\" \"npm run front\""
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Princeton21/funpay.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Princeton21/funpay/issues"
+  },
+  "homepage": "https://github.com/Princeton21/funpay#readme",
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
