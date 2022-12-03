@@ -3,3 +3,7 @@
   padding:0;
   box-sizing:border-box;
 }
+body{
+  background: rgb(191, 250, 255);
+    background: linear-gradient(42deg, rgba(191, 250, 255, 1) 8%, rgba(243, 179, 251, 1) 23%, rgba(249, 222, 152, 1) 38%, rgba(247, 224, 162, 1) 43%, rgba(226, 240, 255, 1) 59%, rgba(144, 195, 255, 1) 89%, rgba(71, 156, 255, 1) 100%);
+}
