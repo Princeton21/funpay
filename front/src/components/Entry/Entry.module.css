@@ -1,0 +1,38 @@
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title,
+.price {
+    font-weight: bold;
+    width: 40rem;
+    height: 4rem;
+    background: #e8e8e8;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+.price {
+    width: 5rem;
+}
+
+.button {
+    padding-top: 10px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #c7bcbc;
+    border-radius: 50px;
+    background: #e8e8e8;
+    text-align: center;
+    color: black;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all .3s;
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
